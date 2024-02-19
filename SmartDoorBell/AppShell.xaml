@@ -8,7 +8,7 @@
     Title="SmartDoorBell">
 
     <ShellContent
-        Title="Home"
+        Title="Smart Door Bell"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
