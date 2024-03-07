@@ -19,8 +19,6 @@
                 CounterBtn.Text = $"Clicked {count} times";
 
             SemanticScreenReader.Announce(CounterBtn.Text);
-
-            Console.WriteLine("Hello World");
         }
     }
 }
