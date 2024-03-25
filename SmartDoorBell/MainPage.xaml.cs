@@ -1,24 +1,47 @@
-﻿namespace SmartDoorBell
+﻿using Microsoft.Maui.Controls;
+
+namespace SmartDoorBell
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
-
         public MainPage()
         {
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        private void LiveBtn_Clicked(object sender, EventArgs e)
         {
-            count++;
+            // Handle Live button click event
+        }
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
+        private void PlaybackBtn_Clicked(object sender, EventArgs e)
+        {
+            // Handle Playback button click event
+        }
 
-            SemanticScreenReader.Announce(CounterBtn.Text);
+        private void AddBtn_Clicked(object sender, EventArgs e)
+        {
+            // Handle Add button click event
+        }
+
+        private void AlarmBtn_Clicked(object sender, EventArgs e)
+        {
+            // Handle Alarm button click event
+        }
+
+        private void AccessBtn_Clicked(object sender, EventArgs e)
+        {
+            // Handle Access button click event
+        }
+
+        private void BackBtn_Clicked(object sender, EventArgs e)
+        {
+            // Handle Back button click event
+        }
+        private void OpenCameraButton_Clicked(object sender, EventArgs e)
+        {
+            // Navigate to the CameraPage
+            Navigation.PushAsync(new CameraPage());
         }
     }
 }
