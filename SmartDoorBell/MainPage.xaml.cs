@@ -38,5 +38,10 @@ namespace SmartDoorBell
         {
             // Handle Back button click event
         }
+        private void OpenCameraButton_Clicked(object sender, EventArgs e)
+        {
+            // Navigate to the CameraPage
+            Navigation.PushAsync(new CameraPage());
+        }
     }
 }

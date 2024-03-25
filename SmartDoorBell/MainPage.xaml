@@ -13,9 +13,8 @@
         </Grid.ColumnDefinitions>
 
         <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
-            <Button Text="Live" Clicked="LiveBtn_Clicked" Margin="5"/>
-            <Button Text="Playback" Clicked="PlaybackBtn_Clicked" Margin="5"/>
-            <Button Text="Add" Clicked="AddBtn_Clicked" Margin="5"/>
+            <Button Text="Live" Clicked="LiveBtn_Clicked" Margin="3"/>
+            <Button Text="Add" Clicked="AddBtn_Clicked" Margin="3"/>
         </StackLayout>
 
         <StackLayout Grid.Row="2" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
@@ -23,6 +22,10 @@
             <Button Text="Access" Clicked="AccessBtn_Clicked" Margin="5"/>
             <Button Text="Back" Clicked="BackBtn_Clicked" Margin="5"/>
         </StackLayout>
+        <StackLayout>
+            <Button Text="Open Camera" Clicked="OpenCameraButton_Clicked" />
+        </StackLayout>
+
     </Grid>
 
 </ContentPage>

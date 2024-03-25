@@ -1,4 +1,6 @@
 ﻿using Microsoft.Maui.Controls;
+using Microsoft.Maui.Graphics;
+using System;
 
 namespace SmartDoorBell
 {
@@ -27,6 +29,27 @@ namespace SmartDoorBell
             {
                 DisplayAlert("Login Failed", "Invalid username or password.", "OK");
             }
+        }
+
+        private void CancelButton_Clicked(object sender, EventArgs e)
+        {
+            // Handle cancel button click
+        }
+
+        // Event handler for light theme button
+        private void OnLightThemeClicked(object sender, EventArgs e)
+        {
+            // Set light theme colors
+            Application.Current.Resources["BackgroundColor"] = Colors.White;
+            Application.Current.Resources["TextColor"] = Colors.Black;
+        }
+
+        // Event handler for dark theme button
+        private void OnDarkThemeClicked(object sender, EventArgs e)
+        {
+            // Set dark theme colors
+            Application.Current.Resources["BackgroundColor"] = Colors.Black;
+            Application.Current.Resources["TextColor"] = Colors.White;
         }
     }
 }
