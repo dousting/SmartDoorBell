@@ -8,6 +8,7 @@
         <Button Text="Login" Clicked="LoginButton_Clicked" />
         <Button Text="Cancel" Clicked="CancelButton_Clicked" />
 
+        <!-- Theme Switching Buttons -->
         <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
             <!-- Theme switching buttons -->
             <Button Text="Light Theme" Clicked="OnLightThemeClicked" />
