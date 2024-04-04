@@ -33,7 +33,8 @@ namespace SmartDoorBell
 
         private void CancelButton_Clicked(object sender, EventArgs e)
         {
-            // Handle cancel button click
+            // Call DependencyService to exit the application
+            DependencyService.Get<LoginPage>();
         }
 
         // Event handler for light theme button
