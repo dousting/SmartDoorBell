@@ -57,7 +57,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\Door.jpg" />
+	  <None Remove="Resources\Images\door_net.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
