@@ -9,29 +9,31 @@
             <Style TargetType="Button">
                 <Setter Property="BackgroundColor" Value="{StaticResource ButtonBackground}" />
                 <Setter Property="TextColor" Value="White" />
-                <Setter Property="CornerRadius" Value="10" />
-                <Setter Property="Margin" Value="60" />
-                <Setter Property="Padding" Value="10" />
+                <Setter Property="CornerRadius" Value="4" />
+                <Setter Property="Margin" Value="21" />
+                <Setter Property="Padding" Value="5" />
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
 
     <Grid>
         <!-- Background Image -->
-        <Image Source="Door.jpg" Aspect="AspectFill" />
+        <Image Source="door_net.jpg" Aspect="AspectFill" />
 
         <!-- Content StackLayout -->
         <StackLayout BackgroundColor="{StaticResource LightBlue}" VerticalOptions="Center" HorizontalOptions="Center" Opacity="0.7">
+            <!-- Hello! Welcome Label -->
+            <Label Text="Hello!! Welcome to My Smart Doorbell App" FontSize="24" FontAttributes="Italic" TextColor="Black" HorizontalTextAlignment="Center" Margin="10"/>
+
             <!-- Your login UI -->
             <Entry x:Name="UsernameEntry" Placeholder="Username" Margin="5"/>
             <Entry x:Name="PasswordEntry" Placeholder="Password" IsPassword="True" Margin="10"/>
             <Button Text="Login" Clicked="LoginButton_Clicked" />
             <Button Text="Cancel" Clicked="CancelButton_Clicked" />
 
-            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="10">
+            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" Margin="50">
                 <!-- Theme switching buttons -->
-                <Button Text="Light Theme" Clicked="OnLightThemeClicked" />
-                <Button Text="Dark Theme" Clicked="OnDarkThemeClicked" />
+                
             </StackLayout>
         </StackLayout>
     </Grid>
