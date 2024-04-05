@@ -61,6 +61,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\addm_net.jpg" />
 	  <None Remove="Resources\Images\door_net.jpg" />
 	  <None Remove="Resources\Images\door_net1.jpg" />
 	  <None Remove="Resources\Images\live1_net.jpg" />
