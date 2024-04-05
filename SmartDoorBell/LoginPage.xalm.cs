@@ -45,12 +45,19 @@ namespace SmartDoorBell
             Application.Current.Resources["TextColor"] = Colors.Black;
         }
 
+
         // Event handler for dark theme button
         private void OnDarkThemeClicked(object sender, EventArgs e)
         {
             // Set dark theme colors
             Application.Current.Resources["BackgroundColor"] = Colors.Black;
             Application.Current.Resources["TextColor"] = Colors.White;
+        }
+        // Event handler for sign-up label tapped
+        private async void SignUpLabel_Tapped(object sender, EventArgs e)
+        {
+            // Navigate to the sign-up page
+            await Navigation.PushAsync(new SignUpPage());
         }
     }
 }

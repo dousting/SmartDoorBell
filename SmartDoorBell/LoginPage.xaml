@@ -18,22 +18,29 @@
 
     <Grid>
         <!-- Background Image -->
-        <Image Source="door_net.jpg" Aspect="AspectFill" />
+        <Image Source="door_net1.jpg" Aspect="AspectFill" VerticalOptions="Fill" HorizontalOptions="Fill" Margin="3"  />
 
         <!-- Content StackLayout -->
         <StackLayout BackgroundColor="{StaticResource LightBlue}" VerticalOptions="Center" HorizontalOptions="Center" Opacity="0.7">
             <!-- Hello! Welcome Label -->
-            <Label Text="Hello!! Welcome to My Smart Doorbell App" FontSize="24" FontAttributes="Italic" TextColor="Black" HorizontalTextAlignment="Center" Margin="10"/>
+            <Label Text="Hello!! Welcome to My Smart Doorbell App" FontSize="24" FontAttributes="Italic" TextColor="Black" HorizontalTextAlignment="Center" Margin="3"/>
 
             <!-- Your login UI -->
-            <Entry x:Name="UsernameEntry" Placeholder="Username" Margin="5"/>
-            <Entry x:Name="PasswordEntry" Placeholder="Password" IsPassword="True" Margin="10"/>
-            <Button Text="Login" Clicked="LoginButton_Clicked" />
+            <Entry x:Name="UsernameEntry" Placeholder="Username" Margin="1"/>
+            <Entry x:Name="PasswordEntry" Placeholder="Password" IsPassword="True" Margin="5"/>
+            <Button Text="Login" Clicked="LoginButton_Clicked"  FontAttributes="Italic" />
             <Button Text="Cancel" Clicked="CancelButton_Clicked" />
 
-            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" Margin="50">
+            <!-- New User Signup Link -->
+            <Label Text="New User? Sign Up Here" TextColor="White" HorizontalOptions="Center" Margin="10">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="SignUpLabel_Tapped" />
+                </Label.GestureRecognizers>
+            </Label>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="7">
                 <!-- Theme switching buttons -->
-                
+
             </StackLayout>
         </StackLayout>
     </Grid>
