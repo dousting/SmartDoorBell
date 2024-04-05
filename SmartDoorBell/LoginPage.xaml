@@ -18,10 +18,10 @@
 
     <Grid>
         <!-- Background Image -->
-        <Image Source="door_net1.jpg" Aspect="AspectFill" VerticalOptions="Fill" HorizontalOptions="Fill" Margin="3"  />
+        <Image Source="door_net.jpg" Aspect="AspectFill" VerticalOptions="Fill" HorizontalOptions="Fill" Margin="2"  />
 
         <!-- Content StackLayout -->
-        <StackLayout BackgroundColor="{StaticResource LightBlue}" VerticalOptions="Center" HorizontalOptions="Center" Opacity="0.7">
+        <StackLayout BackgroundColor="{StaticResource LightBlue}" VerticalOptions="Center" HorizontalOptions="Center" Opacity="0.7" Margin="20">
             <!-- Hello! Welcome Label -->
             <Label Text="Hello!! Welcome to My Smart Doorbell App" FontSize="24" FontAttributes="Italic" TextColor="Black" HorizontalTextAlignment="Center" Margin="3"/>
 
@@ -32,7 +32,7 @@
             <Button Text="Cancel" Clicked="CancelButton_Clicked" />
 
             <!-- New User Signup Link -->
-            <Label Text="New User? Sign Up Here" TextColor="White" HorizontalOptions="Center" Margin="10">
+            <Label Text="New user? Sign Up Here" TextColor="BlueViolet" TextDecorations="Underline" HorizontalOptions="Center" Margin="10">
                 <Label.GestureRecognizers>
                     <TapGestureRecognizer Tapped="SignUpLabel_Tapped" />
                 </Label.GestureRecognizers>
@@ -40,7 +40,7 @@
 
             <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="7">
                 <!-- Theme switching buttons -->
-
+                
             </StackLayout>
         </StackLayout>
     </Grid>

@@ -9,19 +9,18 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <StackLayout Grid.Row="0" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+        <StackLayout Grid.Row="0" HorizontalOptions="Center" 
             <Button Text="Live" Clicked="LiveBtn_Clicked" Margin="10"/>
             <Button Text="Add" Clicked="AddBtn_Clicked" Margin="10"/>
         </StackLayout>
 
         <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
             <Button Text="Alarm" Clicked="AlarmBtn_Clicked" Margin="10"/>
-            <Button Text="Access" Clicked="AccessBtn_Clicked" Margin="10"/>
-            <Button Text="Back" Clicked="BackBtn_Clicked" Margin="10"/>
         </StackLayout>
 
         <StackLayout Grid.Row="2" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
             <Button Text="Open Camera" Clicked="OpenCameraButton_Clicked" Margin="10"/>
+            
         </StackLayout>
     </Grid>
 

@@ -7,6 +7,7 @@ namespace SmartDoorBell
         public MainPage()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false); // Hide the navigation bar
         }
 
         private void LiveBtn_Clicked(object sender, EventArgs e)
@@ -29,15 +30,6 @@ namespace SmartDoorBell
             // Handle Alarm button click event
         }
 
-        private void AccessBtn_Clicked(object sender, EventArgs e)
-        {
-            // Handle Access button click event
-        }
-
-        private void BackBtn_Clicked(object sender, EventArgs e)
-        {
-            // Handle Back button click event
-        }
         private void OpenCameraButton_Clicked(object sender, EventArgs e)
         {
             // Navigate to the CameraPage
