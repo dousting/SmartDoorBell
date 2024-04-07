@@ -1,4 +1,5 @@
-﻿using Microsoft.Maui.Controls;
+﻿using System;
+using Microsoft.Maui.Controls;
 
 namespace SmartDoorBell
 {
@@ -10,6 +11,15 @@ namespace SmartDoorBell
             NavigationPage.SetHasNavigationBar(this, false); // Hide the navigation bar
         }
 
+        // Event handler for the settings button click
+        private void SettingsBtn_Clicked(object sender, EventArgs e)
+        {
+            // Handle the settings button click event here
+            // For example, you can navigate to a settings page
+            //Navigation.PushAsync(new SettingsPage());
+        }
+
+        // Other event handler methods for other buttons can be defined here
         private void LiveBtn_Clicked(object sender, EventArgs e)
         {
             // Handle Live button click event
