@@ -31,7 +31,7 @@
         </StackLayout>
 
         <!-- Image at the top right corner -->
-        <Image Source="set1_net.png" Grid.Row="0" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Start" HeightRequest="60" WidthRequest="50" Margin="0,1,1,0" />
+        <Image Source="set1_net.png" Grid.Row="0" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Start" HeightRequest="60" WidthRequest="70" Margin="0,1,1,0" />
     </Grid>
 
 </ContentPage>
