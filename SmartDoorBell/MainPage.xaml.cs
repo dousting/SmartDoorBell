@@ -22,7 +22,7 @@ namespace SmartDoorBell
         // Other event handler methods for other buttons can be defined here
         private void LiveBtn_Clicked(object sender, EventArgs e)
         {
-            // Handle Live button click event
+            Navigation.PushAsync(new CameraPage());
         }
 
         private void PlaybackBtn_Clicked(object sender, EventArgs e)

@@ -3,7 +3,7 @@
              x:Class="SmartDoorBell.SignUpPage"
              Title="SignUpPage">
     <Grid>
-        <Image Source="bg  2_net.jpg" Aspect="AspectFill" />
+        <Image Source="bg2_net.jpg" Aspect="AspectFill" />
         <StackLayout Padding="20" VerticalOptions="Center">
             <Label Text="Sign Up" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" Margin="0,20,0,40" />
 

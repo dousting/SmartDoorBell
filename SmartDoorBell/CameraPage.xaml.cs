@@ -20,7 +20,7 @@ namespace SmartDoorBell
             };
 
             // Load the URL of the camera web server
-            webView.Source = new UrlWebViewSource { Url = "http://192.168.4.60/" };
+            webView.Source = new UrlWebViewSource { Url = "http://192.168.45.92/" };
 
             // Create a Grid layout and add the WebView to it
             Grid grid = new Grid();

@@ -62,6 +62,7 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\addm_net.jpg" />
+	  <None Remove="Resources\Images\adm1_net.jpg" />
 	  <None Remove="Resources\Images\alarm_net.png" />
 	  <None Remove="Resources\Images\bg2_net.jpg" />
 	  <None Remove="Resources\Images\door_net.jpg" />
@@ -69,6 +70,7 @@
 	  <None Remove="Resources\Images\live1_net.jpg" />
 	  <None Remove="Resources\Images\live_net.jpg" />
 	  <None Remove="Resources\Images\mp_net.png" />
+	  <None Remove="Resources\Images\rec_net.jpg" />
 	  <None Remove="Resources\Images\set1_net.png" />
 	</ItemGroup>
 
